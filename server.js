@@ -10,9 +10,9 @@ const mineflayer = require('mineflayer');
 
 // Environment variables or fallback defaults
 const CONFIG = {
-  host: process.env.MC_HOST || 'YOUR_SERVER_IP_OR_DOMAIN', // e.g. falix server address/IP
+  host: process.env.MC_HOST || 'aga.falix.gg', // e.g. falix server address/IP
   port: parseInt(process.env.MC_PORT, 10) || 10882,        // Your primary server port
-  username: process.env.BOT_NAME || 'DonutSMP_Heartbeat',
+  username: process.env.BOT_NAME || 'Heartbeat',
   version: '1.21.1',
   reconnectIntervalMs: 15000,
   jumpIntervalMs: 60000,
